@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddaaa83f6fdf1f64ba1e2765e5ef6652, type: 3}
+  m_Name: A1StoryStart
+  m_EditorClassIdentifier: 
+  storyText: "\rIts a lone rainny night and I'm here half sober watching at an empty
+    glass of cheap licor.\r\nThe room has a moody smell that reminds me that fall
+    has already come and I don't even have money to pay someone to clean it.\r\nThen
+    the door opens with a screaching sound. She enters the room like if it was hers,
+    and I can smell the sence of trouble and fine perfume.\r\n\r\nWhat a man in my
+    situation should do?\r\n1 - Sit straight and fake to be serious tone while asking
+    her to sit\r\n2 - Ask her if she minds to share a cup or two before leaving.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: e1122628ecc3d574bb75a83adb6f0632, type: 2}
+  - {fileID: 11400000, guid: 1dbb07d7bf190fa418bac46252922064, type: 2}

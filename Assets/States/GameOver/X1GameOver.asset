@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddaaa83f6fdf1f64ba1e2765e5ef6652, type: 3}
+  m_Name: X1GameOver
+  m_EditorClassIdentifier: 
+  storyText: 'Im looking at my blood pouring while trying to raise my hand like if
+    by doing so I could change everything that came to this moment.
+
+
+    The end.
+
+
+    Wanna go back to the beggining?
+
+    1. Yes, lets fix this mess
+
+    2. No, I feel sleepy now...'
+  nextStates:
+  - {fileID: 11400000, guid: a1eae6cfc2d69074db6dbcd5916ff4c9, type: 2}
+  - {fileID: 11400000, guid: b414af40408820642b2ddb475f5ef00b, type: 2}
